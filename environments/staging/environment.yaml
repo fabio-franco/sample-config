@@ -8,7 +8,7 @@ app:
   # is not deployed.
   version: "a648fbe0-adaf-449e-8ef1-e8df5def00a3"
   
-  
+
   # Set the Maven coordinates of the Maven artifact to deploy for the 
   # "Deploy, and run" scenario.
   #maven:
@@ -45,21 +45,21 @@ app:
   # variables such as JVM_ARGS, JAVA_HOME, or any WLP_* environment variables
   # are ignored. Reference the environment variables in the server.xml using
   # the ${SOME_ENV_VAR_NAME} notation.
-  env:
-    - name: SOME_ENV_VAR_NAME
-      value: some_env_var_value
+  # env:
+  #   - name: SOME_ENV_VAR_NAME
+  #     value: some_env_var_value
 
-  # Set a list of Liberty variables for the application. 
-  # Reference the variables in the server.xml using the 
-  # ${some_liberty_variable_name} notation.
-  variables:
-    - name: some_liberty_variable_name
-      value: some_liberty_variable_value
+  # # Set a list of Liberty variables for the application. 
+  # # Reference the variables in the server.xml using the 
+  # # ${some_liberty_variable_name} notation.
+  # variables:
+  #   - name: some_liberty_variable_name
+  #     value: some_liberty_variable_value
       
-  # Set a list of the system properties for the Java runtime.
-  systemProperties:
-    - name: some_system_property_name
-      value: some_system_property_value
+  # # Set a list of the system properties for the Java runtime.
+  # systemProperties:
+  #   - name: some_system_property_name
+  #     value: some_system_property_value
 
   # Enable a public endpoint for the application. If not set, the application
   # is only available on an internal endpoint accessible to other applications
