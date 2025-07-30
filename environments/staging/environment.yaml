@@ -10,10 +10,10 @@ app:
   
   # Set the Maven coordinates of the Maven artifact to deploy for the 
   # "Deploy, and run" scenario.
-  #maven:
+  # maven:
   #  groupId: net.wasdev.wlp.sample
   #  artifactId: ferret
-  #  version: 1.2
+  #  version: "1.2"
   #  type: war
 
   # Set minimum and maximum number of instances of the application. 
@@ -44,21 +44,21 @@ app:
   # variables such as JVM_ARGS, JAVA_HOME, or any WLP_* environment variables
   # are ignored. Reference the environment variables in the server.xml using
   # the ${SOME_ENV_VAR_NAME} notation.
-  env:
-    - name: SOME_ENV_VAR_NAME
-      value: some_env_var_value
+  # env:
+  #  - name: SOME_ENV_VAR_NAME
+  #    value: some_env_var_value
 
   # Set a list of Liberty variables for the application. 
   # Reference the variables in the server.xml using the 
   # ${some_liberty_variable_name} notation.
-  variables:
-    - name: some_liberty_variable_name
-      value: some_liberty_variable_value
+  # variables:
+  #  - name: some_liberty_variable_name
+  #    value: some_liberty_variable_value
       
   # Set a list of the system properties for the Java runtime.
-  systemProperties:
-    - name: some_system_property_name
-      value: some_system_property_value
+  # systemProperties:
+  #  - name: some_system_property_name
+  #    value: some_system_property_value
 
   # Enable a public endpoint for the application. If not set, the application
   # is only available on an internal endpoint accessible to other applications
@@ -69,17 +69,17 @@ app:
   # 17 for IBM Semeru 17, or 21 for IBM Semeru 21. If not set, the service
   # tries to automatically detect the Java version for the application. If the
   # service is unable to detect the Java runtime, it defaults to Java 17.
-  #java: 17
+  # java: 17
   
   # Set the name of the custom domain for the application.
-  #host: my_custom_domain.io
+  # host: my_custom_domain.io
 
   # Set a list of service bindings for the application. The bindings can be
   # provided in two ways: by providing the full crn value of the service 
   # instance or by providing the name and type of the service instance. The
   # preferred way is to provide the crn value as the service instance names
   # can change and might not be unique.
-  #services:
-  #- crn: crn:v1:bluemix:public:dashdb-for-transactions:us-east:a/123:456::
-  #- name: "my Db2 instance"
-  #  type: db2
+  # services:
+  # - crn: "crn:v1:bluemix:public:dashdb-for-transactions:us-east:a/123:456::"
+  # - name: "my Db2 instance"
+  #   type: dashdb-for-transactions
