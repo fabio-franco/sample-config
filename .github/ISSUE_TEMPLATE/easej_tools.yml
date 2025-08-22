@@ -8,7 +8,7 @@ body:
       label: EASeJ Tools issue template
       value: | 
         This template is specifically designed to collect feedback regarding EASeJ Tools. Therefore, we kindly ask that you only report experiences related to EASeJ Tools. 
-        \nThank you for taking the time to share your feedback with us—we truly appreciate your input! 
+        Thank you for taking the time to share your feedback with us—we truly appreciate your input! 
   - type: textarea
     id: what-happened
     attributes:
