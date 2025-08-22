@@ -1,19 +1,19 @@
-name: Issue Report
+name: EASeJ Tools Issue Report
 description: Include feedback about EASeJ Tools Beta. It can be a bug you have found or an improvement you would like to see.
-title: "[Issue]: "
-labels: ["bug", "feedback"]
+title: "[EASeJ Tools]: "
+# labels: ["bug", "feedback"]
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to share your feedback with us!
+        Thanks for taking the time to share your feedback with us about EASeJ Tools!
   - type: textarea
     id: what-happened
     attributes:
       label: Can you explain what occurred?
       description: Tell us what happened and the sequence of steps you followed.
       placeholder: Steps to reproduce the behavior
-      value: "Go to... Click on... Scroll down to... See the error/message"
+      value: "1. Go to... \n2. Click on... \n3. Scroll down to... \n 4. See the error/message"
     validations:
       required: true
   - type: textarea
