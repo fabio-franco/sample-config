@@ -1,12 +1,11 @@
-name: EASeJ Tools Issue Report
-description: Include feedback about EASeJ Tools Beta. It can be a bug you have found or an improvement you would like to see.
-title: "[EASeJ Tools]: "
-# labels: ["bug", "feedback"]
+name: EASeJ Tools beta Issue Report
+description: Provide feedback about EASeJ Tools beta. It can be a bug you have found or an improvement you would like to see.
+title: "[EASeJ Tools beta]: "
 body:
   - type: markdown
     attributes:
       value: | 
-        This template is specifically designed to collect feedback regarding EASeJ Tools. Therefore, we kindly ask that you only report experiences related to EASeJ Tools. 
+        This template is specifically designed to collect feedback regarding the beta release of EASeJ Tools. Therefore, we request that you only report issues or experiences related to the beta release.
 
         Thank you for taking the time to share your feedback with us, we truly appreciate your input! 
   - type: textarea
